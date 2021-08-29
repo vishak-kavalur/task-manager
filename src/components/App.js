@@ -1,4 +1,5 @@
 import "../styles/App.css";
+import 'antd/dist/antd.css';
 
 import React, {useState, useEffect} from "react";
 import { useSelector } from "react-redux";
