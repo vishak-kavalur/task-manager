@@ -1,0 +1,52 @@
+.Card {
+  position: relative;
+  cursor: pointer;
+  background: white;
+  margin: 10px 5px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 0 rgba(9, 45, 66, 0.25);
+  font-size: 15px;
+  overflow-wrap: break-word;
+  min-height: 20px;
+}
+
+.Card:hover {
+  background: #f5f6f7;
+}
+
+.Card-Icons {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Card-Icon {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 1px;
+  color: rgba(0, 0, 0, 0.5);
+  background: rgba(220, 220, 220, 1);
+  opacity: 1;
+}
+
+.Avatar {
+  position: relative;
+  left: 197px;
+  top: 5px;
+  width:34px;
+}
+.ant-badge-status-dot {
+  width: 12px !important;
+  height: 12px !important;
+}
+
